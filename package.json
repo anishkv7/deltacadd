@@ -1,0 +1,8 @@
+{
+  "name": "deltacadd",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "plates": "^0.4.11"
+  }
+}
