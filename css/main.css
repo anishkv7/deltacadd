@@ -152,12 +152,6 @@ ul.topnav li a{
     width: 100%; 
     margin: 0; 
 }
-@media only screen and (min-width: 1024px) {
-    .wrapper { 
-        width: 1024px; 
-        margin: auto; 
-    }
-}
 
 .featurelist{
     list-style: none;
