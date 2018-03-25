@@ -97,9 +97,112 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#header{
+    margin-bottom:30px;
+}
 
+.logoimg{
+    margin-top :20px;
+    margin-left:40px;
 
+}
 
+ul.topnav {
+    list-style-type: none;
+    margin-top: 28px;
+    overflow: hidden;
+    background-color:none;
+    
+    display: inline-block;
+    float: right;
+}
+
+ul.topnav li {
+  float: left;
+  padding:0 30px;
+}
+
+ul.topnav li a{
+    text-decoration: none;
+    color: #222222; 
+    font-family: "Open Sans";   
+    font-size: 18px;    
+    font-weight: 600;   
+    line-height: 30px;
+
+}
+
+.bluebutton{
+    border-radius: 30px;    
+    background-color: #2CAAB7;
+    font-family: "Open Sans";
+    color:white;
+    padding:12px 25px;
+    text-transform: uppercase;
+}
+
+.slider { 
+    width: 100%; 
+    padding-bottom: 25%; 
+}
+.slider img { 
+    width: 100%; 
+}
+.wrapper { 
+    width: 100%; 
+    margin: 0; 
+}
+@media only screen and (min-width: 1024px) {
+    .wrapper { 
+        width: 1024px; 
+        margin: auto; 
+    }
+}
+
+.featurelist{
+    list-style: none;
+}
+
+.featurelist li{
+    width:28%;
+    color: #333333; 
+    font-family: "Open Sans";   
+    font-size: 18px;
+    display: inline-block;
+    padding-right: 50px;
+    margin-bottom:25px;
+}
+
+.featurelist h4{
+    color: #222222; 
+    font-family: "Open Sans";   
+    font-size: 28px;
+    font-weight:300;
+    margin: 0;
+    margin-top: 10px;
+
+}
+
+.featurelist h3{
+        color: #2CAAB7; 
+        font-family: "Open Sans";   
+        font-size: 28px;
+        margin: 0;
+    }
+
+.featurelist h2{
+       color: #999999;  
+       font-family: "Open Sans";   
+       font-size: 20px;
+        margin: 0;
+    }
+
+.featurelist p{
+    font-family: "Open Sans";   
+    font-size: 18px;
+    color:#333;
+    line-height: 31px;
+}
 
 
 
