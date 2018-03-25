@@ -188,6 +188,7 @@ ul.topnav li a{
         font-family: "Open Sans";   
         font-size: 28px;
         margin: 0;
+        text-transform: uppercase;
     }
 
 .featurelist h2{
@@ -195,13 +196,14 @@ ul.topnav li a{
        font-family: "Open Sans";   
        font-size: 20px;
         margin: 0;
+        text-transform: uppercase;
     }
 
 .featurelist p{
     font-family: "Open Sans";   
-    font-size: 18px;
+    font-size: 15px;
     color:#333;
-    line-height: 31px;
+    line-height: 26px;
 }
 
 

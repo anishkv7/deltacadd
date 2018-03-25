@@ -1,46 +1,55 @@
 {
-	"carousel" : [{
+	"carousel": [{
 		"image": "img/banner1.png",
 		"link": "documan.html"
-	},{
+	}, {
 		"image": "img/banner1.png",
 		"link": "documan.html"
-	},{
+	}, {
 		"image": "img/banner1.png",
 		"link": "documan.html"
 	}],
-	"featurelist" : [{
-		"type": "text",
+	"featurelist": [{
+		"type": "",
 		"h4": "We Solve",
 		"h3": "problems",
 		"text": "We Solve problems of engineering industry with our innovative product line. We use our extensive knowledge in CAD to solve everyday problems of the industry."
 	}, {
-		"type": "image",
-		"image": "img/arhitect.png",
-		"h2": "Arhitects",
+		"type": "true",
+		"h4" : "",
+		"h3": "",
+		"image": "img/architects.png",
+		"h2": "Architects",
 		"text": "DocuMan to solve all document management problems and also to time track your employees and project."
-	}, , {
-		"type": "image",
+	}, {
+		"type": "true",
+		"h4" : "",
+		"h3": "",
 		"image": "img/modular.png",
 		"h2": "Modular Kitchen Makers",
 		"text": "KitchenPlan, an AutoCAD plugin helps to design a modular kitchen and give a photo realistic rendering and estimate."
 	}, {
-		"type": "image",
+		"type": "true",
+		"h4" : "",
+		"h3": "",
 		"image": "img/salesteam.png",
 		"h2": "Sales Team",
 		"text": "DocuMan to solve all document management problems and also to time track your employees and project."
 	}, {
-		"type": "image",
+		"type": "true",
+		"h4" : "",
+		"h3": "",
 		"image": "img/manufacturing.png",
 		"h2": "Manufacturing Industry",
 		"text": "DocuMan to solve all document management problems and also to time track your employees and project."
 	}, {
-		"type": "image",
+		"type": "true",
+		"h4" : "",
+		"h3": "",
 		"image": "img/autocadd.png",
-		"h2": "Autocad Customizations",
+		"h2": "Autocadd Customizations",
 		"text": "DocuMan to solve all document management problems and also to time track your employees and project."
-	}
-	],
+	}],
 	"clients": [{
 		"img": "img/logos/logo1.png",
 		"link": ""
@@ -62,24 +71,24 @@
 	}, {
 		"img": "img/logos/logo1.png",
 		"link": ""
-	}]
+	}],
 	"products": [{
 		"img": "img/documan.png",
 		"name": "Documan",
-		"text" : "DocuMan to solve all document management problems and also to time track your employees and project. DocuMan to solve all document management problems and also to time track your employees and project. DocuMan to solve all document management problems and also to time track your employees and project. ",
+		"text": "DocuMan to solve all document management problems and also to time track your employees and project. DocuMan to solve all document management problems and also to time track your employees and project. DocuMan to solve all document management problems and also to time track your employees and project. ",
 		"link": "documan.html"
 	}, {
 		"img": "img/kitchenplan.png",
 		"name": "Kitchenplan",
-		"text" : "DocuMan to solve all document management problems and also to time track your employees and project. DocuMan to solve all document management problems and also to time track your employees and project. DocuMan to solve all document management problems and also to time track your employees and project. ",
+		"text": "DocuMan to solve all document management problems and also to time track your employees and project. DocuMan to solve all document management problems and also to time track your employees and project. DocuMan to solve all document management problems and also to time track your employees and project. ",
 		"link": "documan.html"
-	},{
+	}, {
 		"img": "img/leadtracker.png",
 		"name": "Leadtracker",
-		"text" : "DocuMan to solve all document management problems and also to time track your employees and project. DocuMan to solve all document management problems and also to time track your employees and project. DocuMan to solve all document management problems and also to time track your employees and project. ",
+		"text": "DocuMan to solve all document management problems and also to time track your employees and project. DocuMan to solve all document management problems and also to time track your employees and project. DocuMan to solve all document management problems and also to time track your employees and project. ",
 		"link": "documan.html"
 	}],
-	"testimonials" :[{
+	"testimonials": [{
 		"img": "img/customer/sandeep.jpg",
 		"text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
 		"name": "Sandeep Trivedi",
