@@ -206,8 +206,90 @@ ul.topnav li a{
     line-height: 26px;
 }
 
+.clients{
+        background-color: rgba(144,151,165,0.06);
+        padding:40px;
+}
 
 
+.clients li{
+    display:inline-block;
+    width:22%;
+    padding-top:25px;
+    text-align: center;
+}
+
+.clients img{
+    max-width: 60%;
+}
+
+.customertestimonials{
+    text-align: center;
+}
+
+.customertestimonials h2{
+        color: #333333; 
+        font-family: "Open Sans";   
+        font-size: 30px;    
+        font-weight: 300; 
+        margin: 0;  
+        
+}
+
+.customertestimonials p{
+        color: #999999; 
+        font-family: "Open Sans";   
+        font-size: 20px;   
+        margin-top: 10px; 
+
+}
+
+.testimonials{
+    margin-top:50px;
+}
+
+.testimonials li{
+         
+        width: 40%;   
+        border: 1px solid #CCCCCC;  
+        border-radius: 6px; 
+        background-color: rgba(216,216,216,0);
+        display: inline-block;
+        padding: 15px;
+        margin:0 40px;
+}
+
+.testimonials p{
+    font-family: "Open Sans";  
+    color: #333333; 
+    font-size: 15px;
+
+}
+
+.testimonials img{
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+}
+
+.customername{
+    display: block;
+    text-align: right;
+    font-weight: 600;
+    color: #333333; 
+    font-family: "Open Sans";   
+    font-size: 15px;
+}
+
+.companyname{
+    display: block;
+    color: #333333; 
+    font-family: "Open Sans";   
+    font-size: 15px;    
+    font-style: italic;
+    text-align: right;
+}
 
 
 

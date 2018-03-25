@@ -42,30 +42,59 @@
         
         </ul>
         <script id="featurelistT" type="x-tmpl-mustache">
-        {{#featurelist}}  
-         <li>
-            <div>
-                {{#type}}
-                
-                    <img src= "{{image}}"/>
-                    <h2>{{h2}}</h2>
-                    <p>{{text}}</p>
-                {{/type}}    
-                {{^type}}
-                    <h4>{{h4}}</h4>
-                    <h3>{{h3}}</h3>
-                    <p>{{text}}</p>
-                {{/type}}
-                
-            </div>
+            {{#featurelist}}  
+             <li>
+                <div>
+                    {{#type}}
+                    
+                        <img src= "{{image}}"/>
+                        <h2>{{h2}}</h2>
+                        <p>{{text}}</p>
+                    {{/type}}    
+                    {{^type}}
+                        <h4>{{h4}}</h4>
+                        <h3>{{h3}}</h3>
+                        <p>{{text}}</p>
+                    {{/type}}
+                    
+                </div>
 
-          </li>
+              </li>
 
-  
-
-        {{/featurelist}}
+            {{/featurelist}}
         </script>
 
+        <!-- Main clients come here -->
+
+        <ul class="clients" >
+        
+        </ul>
+        <script id="clientsT" type="x-tmpl-mustache">
+        {{#clients}}  
+            <li><a href= "{{link}}" > <img src="{{img}}" /> </a></li>
+        {{/clients}}
+        </script>
+        <!-- Testimonials -->
+        <div class="customertestimonials">
+            <img src="img/heart.png" />
+            <h2>DeltaCadd makes us happy</h2>
+            <p>More than 50 happy clients accross industries and growing</p>
+        </div>
+
+         <ul class="testimonials" >
+        
+        </ul>
+        <script id="testimonialsT" type="x-tmpl-mustache">
+        {{#testimonials}}  
+            <li>
+                <img src= "{{img}}" align="left"/>
+                <p>{{text}}</p>
+                <span class="customername">{{name}}</span>
+                <span class="companyname">{{company}}</span>
+
+            </li>
+        {{/testimonials}}
+        </script>
 
         <!-- Footer --> 
         <div id="footer"></div>

@@ -16,36 +16,26 @@
 		"text": "We Solve problems of engineering industry with our innovative product line. We use our extensive knowledge in CAD to solve everyday problems of the industry."
 	}, {
 		"type": "true",
-		"h4" : "",
-		"h3": "",
 		"image": "img/architects.png",
 		"h2": "Architects",
 		"text": "DocuMan to solve all document management problems and also to time track your employees and project."
 	}, {
 		"type": "true",
-		"h4" : "",
-		"h3": "",
 		"image": "img/modular.png",
 		"h2": "Modular Kitchen Makers",
 		"text": "KitchenPlan, an AutoCAD plugin helps to design a modular kitchen and give a photo realistic rendering and estimate."
 	}, {
 		"type": "true",
-		"h4" : "",
-		"h3": "",
 		"image": "img/salesteam.png",
 		"h2": "Sales Team",
 		"text": "DocuMan to solve all document management problems and also to time track your employees and project."
 	}, {
 		"type": "true",
-		"h4" : "",
-		"h3": "",
 		"image": "img/manufacturing.png",
 		"h2": "Manufacturing Industry",
 		"text": "DocuMan to solve all document management problems and also to time track your employees and project."
 	}, {
 		"type": "true",
-		"h4" : "",
-		"h3": "",
 		"image": "img/autocadd.png",
 		"h2": "Autocadd Customizations",
 		"text": "DocuMan to solve all document management problems and also to time track your employees and project."
@@ -54,22 +44,25 @@
 		"img": "img/logos/logo1.png",
 		"link": ""
 	}, {
-		"img": "img/logos/logo1.png",
+		"img": "img/logos/logo2.png",
 		"link": ""
 	}, {
-		"img": "img/logos/logo1.png",
+		"img": "img/logos/logo3.png",
 		"link": ""
 	}, {
-		"img": "img/logos/logo1.png",
+		"img": "img/logos/logo4.png",
 		"link": ""
 	}, {
-		"img": "img/logos/logo1.png",
+		"img": "img/logos/logo5.png",
 		"link": ""
 	}, {
-		"img": "img/logos/logo1.png",
+		"img": "img/logos/logo6.png",
 		"link": ""
 	}, {
-		"img": "img/logos/logo1.png",
+		"img": "img/logos/logo7.png",
+		"link": ""
+	}, {
+		"img": "img/logos/logo8.png",
 		"link": ""
 	}],
 	"products": [{
@@ -94,9 +87,9 @@
 		"name": "Sandeep Trivedi",
 		"company": "E2C Developers"
 	}, {
-		"img": "img/customer/sandeep.jpg",
+		"img": "img/customer/amit.jpg",
 		"text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
-		"name": "Sandeep Trivedi",
-		"company": "E2C Developers"
+		"name": "Amit Gupta",
+		"company": "Godrej Interio"
 	}]
 }

@@ -11,6 +11,12 @@ $(function(){
   		var featurelist = $('#featurelistT').html();
   		$('.featurelist').html(Mustache.to_html(featurelist, data));
 
+  		var clients = $('#clientsT').html();
+  		$('.clients').html(Mustache.to_html(clients, data));
+
+  		var testimonials = $('#testimonialsT').html();
+  		$('.testimonials').html(Mustache.to_html(testimonials, data));
+
   		simpleslider.getSlider({
 	      container: document.getElementById('myslider'),
 	      init: -100,
