@@ -291,10 +291,41 @@ ul.topnav li a{
     text-align: right;
 }
 
+.mainproducts{
+    margin-top: 50px;
+    background-color:  rgba(144,151,165,0.06);
+    }
 
+.products li{
+    display: inline-block;
+    width:30%;
+    border: 1px solid #EEEEEE;  
+    background-color: #FFFFFF;
+    padding: 10px;
+}
 
+.products h2{
+    text-transform: uppercase;
+    font-family: "Open Sans";   
+    color: #999999;
+    font-size: 20px;    
+    font-weight: 600;
+    text-align: center;
+}
 
+.products p{
+    color: #333333; 
+    font-family: "Open Sans";   
+    font-size: 15px;
+    text-align: center;
 
+}
+
+#footer{
+        background: linear-gradient(179.52deg, rgba(77,81,90,0.8) 0%, rgba(125,129,152,0.8) 100%);
+        margin-top:50px;
+
+}
 
 
 

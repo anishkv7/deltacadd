@@ -96,6 +96,29 @@
         {{/testimonials}}
         </script>
 
+        <!-- Products -->
+
+        <div class="mainproducts">
+            <h2>Products</h2>
+            <ul class="products" >
+        
+            </ul>
+        <script id="productsT" type="x-tmpl-mustache">
+        {{#products}}  
+            <li>
+                <img src= "{{img}}" />
+                <h2>{{name}}</h2>
+                <p>{{text}}</p>
+                <a href="{{link}}">Know more</a>
+                
+            </li>
+        {{/products}}
+        </script>
+
+
+        </div>
+
+
         <!-- Footer --> 
         <div id="footer"></div>
 
