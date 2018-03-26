@@ -265,6 +265,7 @@ ul.topnav li a{
     display: inline-block;
     margin-right: 20px;
     border: 1px solid #ccc;
+    float:left;
 }
 
 .customername{
@@ -532,7 +533,82 @@ font-size: 15px;
     display: block;
 }    
 
+.featurelist li{
+    width:90%;
+}
 
+.clients img{
+    max-width: 90%;
+}
+
+.clients li{
+    width: 40%;
+    display: inline-block;
+    padding-right: 25px;
+
+}
+
+.customertestimonials h2{
+
+    font-size: 22px;
+}
+
+.customertestimonials p{
+
+    font-size: 15px;
+    padding:0 15px;
+}
+
+.testimonials li{
+    width:84%;
+    padding:5px 10px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+.testimonials img{
+    float: none;
+    width:35%;
+    margin-top:20px;
+}
+
+.products li{
+    width: 70%;
+    margin-bottom: 20px;
+
+}
+
+.products{
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-left: 0;
+}
+
+.products p{
+    white-space: normal;
+}
+
+.productbutton{
+    border-radius: 15px;    
+    padding:10px 15px;
+    font-size: 10px;
+}
+
+.overlapbutton{
+    margin-left:-16px;
+    border-radius: 15px;    
+    padding:10px 15px;
+    font-size: 10px;
+}
+
+.address p{
+    font-size: 14px;
+}
+
+.address img{
+    margin-right: 10px;
+    width: 25%;
+}
 
 }
 
