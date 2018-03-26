@@ -286,16 +286,31 @@ ul.topnav li a{
 }
 
 .mainproducts{
-    margin-top: 50px;
+    
+    margin-top:50px;
+    padding:20px 20px;
     background-color:  rgba(144,151,165,0.06);
+
     }
+
+.mainproducts h2{
+        color: #333333; 
+        font-family: "Open Sans";   
+        font-size: 28px;    
+        font-weight: 300;
+        padding:0;
+        margin:0;
+}
 
 .products li{
     display: inline-block;
-    width:30%;
+    width:28%;
     border: 1px solid #EEEEEE;  
     background-color: #FFFFFF;
     padding: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+
 }
 
 .products h2{
@@ -317,10 +332,96 @@ ul.topnav li a{
 
 #footer{
         background: linear-gradient(179.52deg, rgba(77,81,90,0.8) 0%, rgba(125,129,152,0.8) 100%);
-        margin-top:50px;
+    
+        padding-top: 15px;
+}
+
+
+/* responsive ---------*/
+
+/* For Tablets */
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.logoimg{
+    width:25%;
+}
+
+ul.topnav{
+    float:right;
+    display: inline-block;
+}
+
+ul.topnav li {
+  float: left;
+  padding:0 12px;
+  margin-left: 0;
+}
+
+ul.topnav li a{
+  
+font-size: 15px; 
+
+}
+.bluebutton{
+    border-radius: 18px;    
+    padding:10px 10px;
+    font-size: 12px;
+}
+.featurelist li{
+    width:42%;
 
 }
 
+.featurelist h4{
+   
+    font-size: 25px;
+}
+
+.featurelist h3{
+   
+    font-size: 20px;
+}
+
+.featurelist h2{
+   
+    font-size: 20px;
+}
+
+.featurelist p{
+   
+    font-size: 15px;
+}
+
+.clients img{
+    max-width: 80%;
+}
+
+.customertestimonials h2{
+
+    font-size: 25px;
+}
+
+.customertestimonials p{
+
+    font-size: 20px;
+}
+
+.testimonials li{
+    width:32%;
+}
+
+.products{
+    overflow: auto;
+
+}
+
+.products li{
+    width: 42%;
+}
+
+}
 
 
 
