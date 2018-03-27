@@ -34,6 +34,11 @@ $(function(){
 
 	});
 
+ $('.hamburger, .topnav').on('click', function() { 
+        $('.menu-bg, .topnav, .hamburger').toggleClass('fs');
+        //$('.hamburger').text() == "☰" ? $('.hamburger').text('✕') : $('.hamburger').text('☰');
+    });
+
 });
 
 

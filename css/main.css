@@ -97,6 +97,73 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.menu-bg {
+  display: none;
+}
+
+.hamburger{
+  color: #ccc;
+  padding-top: 11px;
+  -webkit-user-select: none;
+  cursor: pointer;
+  transition: .9s;
+  transform-origin: center;
+  display:none;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  text-align:center;
+  border-radius: 100%;
+  right:60px;
+  top:25px;
+  z-index: 2;
+
+}
+
+.hamburger:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 1em;
+  height: 0.15em;
+  background: #ccc;
+  box-shadow: 
+    0 0.25em 0 0 #ccc,
+    0 0.5em 0 0 #ccc;
+}
+
+
+.hamburger.fs:before{
+  background: none;
+  box-shadow: none;
+  content: "X";
+  font-family: 'Raleway', sans-serif;
+  color: #ccc;
+}
+.menu-bg {
+  z-index: 1;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  text-align:center;
+  border-radius: 100%;
+  right:10px;
+  top:10px;
+  background-color: #55acee;
+  pointer-events: none;
+  transition: .3s; 
+  transform: translate3d(1%,16%,0);
+  transform-origin: center center;
+}
+.menu-bg.fs {
+    transform:translate3d(-50%,-50%,0);  
+    width:500vw; 
+    height:500vw;
+}
+
 #header{
     margin-bottom:30px;
 }
@@ -145,7 +212,7 @@ ul.topnav li a{
     width: 100%; 
     padding-bottom: 25%; 
 }
-.slider img { 
+.slider img, .banner img{ 
     width: 100%; 
 }
 .wrapper { 
@@ -235,6 +302,29 @@ ul.topnav li a{
         font-family: "Open Sans";   
         font-size: 20px;   
         margin-top: 10px; 
+
+}
+
+.documanuses{
+    text-align: center;
+}
+
+.documanuses h2{
+        color: #444444;
+        font-family: "Open Sans";   
+        font-size: 40px;    
+        font-weight: 300; 
+        margin-top: 20px; 
+        margin-bottom:10px; 
+        
+}
+
+.documanuses p{
+        color: #444444; 
+        font-family: "Open Sans";   
+        font-size: 20px;   
+        margin-top: 5px; 
+        line-height: 30px;
 
 }
 
@@ -420,11 +510,13 @@ ul.topnav li a{
 ul.topnav{
     float:right;
     display: inline-block;
+    padding-left:0;
+    margin-right: 60px;
 }
 
 ul.topnav li {
   float: left;
-  padding:0 12px;
+  padding:0 5px;
   margin-left: 0;
 }
 
@@ -434,7 +526,7 @@ font-size: 15px;
 
 }
 .bluebutton{
-    border-radius: 18px;    
+    border-radius: 16px;    
     padding:10px 10px;
     font-size: 12px;
 }
@@ -506,6 +598,9 @@ font-size: 15px;
     margin-left:-19px;
 }
 
+#footer{
+    width:87%;
+}
 .address{
     width: 220px;
 }
@@ -529,10 +624,32 @@ font-size: 15px;
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-.hamburger{
-    display: block;
+.hamburger, .menu-bg{
+    display:block;
+  }
+
+
+
+ul.topnav{
+    display: none;
 }    
 
+
+
+ul.topnav.fs {
+    display: block;
+    position:fixed;
+    letter-spacing:10px;
+    width: 90%;
+    text-align: center;
+    transition: .4s;
+    margin-top:100px;
+    transform: translateY(-200%);
+    pointer-events:none;
+    transform: translateY(0);
+    pointer-events:auto;
+    z-index: 3;
+  }
 .featurelist li{
     width:90%;
 }
