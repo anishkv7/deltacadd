@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
-    <body>
+    <body id="documan">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -23,40 +23,92 @@
 
         <!-- Header -->
         <div id="header"></div>
-        <!-- carousel image --> 
-        <div class="banner">
-          
-            <img src="img/documan-banner.jpg" />
-        </div>
+        <!-- banner image --> 
+        <div id="banner">
+        </div>  
+
+        <script id="bannerT" type="x-tmpl-mustache">
+                <img src= "{{banner}}"/>
+            
+        </script>
+            
 
         <!-- Body comes here -->
 
-        <div class="documanuses">
-        
-            <h2>To Solve your document management woes</h2>
-            <p>DocuMan™ is a document management software built for consultants by consultants. By combining years of insight obtained from architects, engineers, design professionals and other consultants with technological innovation, this product addresses a key pain point effectively.</p>
-        </div>
+        <div id="title">
+        </div>  
 
-        <ul class="features" >
+        <script id="titleT" type="x-tmpl-mustache">
+                <h1> {{title}}</h1>
+            
+        </script>
+
+       <div id="desc">
+        </div>  
+
+        <script id="descT" type="x-tmpl-mustache">
+                <h2> {{desc}}</h2>
+            
+        </script>
+
+
+        <ul id="features" >
         
         </ul>
         <script id="featuresT" type="x-tmpl-mustache">
             {{#features}}  
              <li>
-                <img src= "{{image}}"/>
-                <h2>{{h2}}</h2>
-                <p>{{text}}</p>
+                        <img src= "{{image}}"/>
+                        <h2>{{h2}}</h2>
+                        <p>{{text}}</p>
+              
 
               </li>
 
             {{/features}}
         </script>
 
-        <!-- Main clients come here -->
+        <ul id="story">
+        </ul>  
+        
+        <script id="storyT" type="x-tmpl-mustache">
+        {{#story}} 
+        <li>
+                <img src= "{{logo}}"/>
+                <h2> {{h2}}</h2>
+                <p> {{about}}</p>
+                <p>{{solution}}</p>
+                <img src= "{{photo}}"/>
+                <h2> {{quote}}</h2>
+                <span class="clientname">{{name}}</span>
+                <span class="designation">{{designation}}</span>
+
+        </li>
+        {{/story}}
+        </script>
+
+        <div class="mainlogos">
+            <h2>And Many More..</h2>
+             <ul id="logos" >
+        
+            </ul>
+            <script id="logosT" type="x-tmpl-mustache">
+            {{#logos}}  
+                 <li>
+                    <img src= "{{img}}"/>
+                    <a href= "{{link}}"></a>
+                    
+                  </li>
+
+            {{/logos}}
+            </script>
+
+
+
+        </div>
+
 
    
-
-        <!-- Products -->
 
       
        
