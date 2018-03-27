@@ -220,11 +220,11 @@ ul.topnav li a{
     margin: 0; 
 }
 
-.featurelist{
+#featurelist{
     list-style: none;
 }
 
-.featurelist li{
+#featurelist li{
     width:28%;
     color: #333333; 
     font-family: "Open Sans";   
@@ -234,7 +234,7 @@ ul.topnav li a{
     margin-bottom:25px;
 }
 
-.featurelist h4{
+#featurelist h4{
     color: #222222; 
     font-family: "Open Sans";   
     font-size: 28px;
@@ -244,7 +244,7 @@ ul.topnav li a{
 
 }
 
-.featurelist h3{
+#featurelist h3{
         color: #2CAAB7; 
         font-family: "Open Sans";   
         font-size: 28px;
@@ -252,7 +252,7 @@ ul.topnav li a{
         text-transform: uppercase;
 }
 
-.featurelist h2{
+#featurelist h2{
        color: #999999;  
        font-family: "Open Sans";   
        font-size: 20px;
@@ -260,35 +260,35 @@ ul.topnav li a{
         text-transform: uppercase;
 }
 
-.featurelist p{
+#featurelist p{
     font-family: "Open Sans";   
     font-size: 15px;
     color:#333;
     line-height: 26px;
 }
 
-.clients{
+#clients{
         background-color: rgba(144,151,165,0.06);
         padding:40px;
 }
 
 
-.clients li{
+#clients li{
     display:inline-block;
     width:22%;
     padding-top:25px;
     text-align: center;
 }
 
-.clients img{
+#clients img{
     max-width: 60%;
 }
 
-.customertestimonials{
+#customertestimonials{
     text-align: center;
 }
 
-.customertestimonials h2{
+#customertestimonials h2{
         color: #333333; 
         font-family: "Open Sans";   
         font-size: 30px;    
@@ -297,13 +297,14 @@ ul.topnav li a{
         
 }
 
-.customertestimonials p{
+#customertestimonials p{
         color: #999999; 
         font-family: "Open Sans";   
         font-size: 20px;   
         margin-top: 10px; 
 
 }
+
 
 .documanuses{
     text-align: center;
@@ -328,11 +329,12 @@ ul.topnav li a{
 
 }
 
-.testimonials{
+
+#testimonials{
     margin-top:50px;
 }
 
-.testimonials li{
+#testimonials li{
          
         width: 40%;   
         border: 1px solid #CCCCCC;  
@@ -343,14 +345,14 @@ ul.topnav li a{
         margin:0 40px;
 }
 
-.testimonials p{
+#testimonials p{
     font-family: "Open Sans";  
     color: #333333; 
     font-size: 15px;
 
 }
 
-.testimonials img{
+#testimonials img{
     border-radius: 50%;
     display: inline-block;
     margin-right: 20px;
@@ -393,7 +395,7 @@ ul.topnav li a{
         margin-left:40px;
 }
 
-.products li{
+#products li{
     display: inline-block;
     width:27%;
     border: 1px solid #EEEEEE;  
@@ -407,7 +409,7 @@ ul.topnav li a{
 }
 
 
-.products h2{
+#products h2{
     text-transform: uppercase;
     font-family: "Open Sans";   
     color: #999999;
@@ -416,7 +418,7 @@ ul.topnav li a{
     text-align: center;
 }
 
-.products p{
+#products p{
     color: #333333; 
     font-family: "Open Sans";   
     font-size: 15px;
@@ -530,61 +532,61 @@ font-size: 15px;
     padding:10px 10px;
     font-size: 12px;
 }
-.featurelist li{
+#featurelist li{
     width:42%;
 
 }
 
-.featurelist h4{
+#featurelist h4{
    
     font-size: 25px;
 }
 
-.featurelist h3{
+#featurelist h3{
    
     font-size: 20px;
 }
 
-.featurelist h2{
+#featurelist h2{
    
     font-size: 20px;
 }
 
-.featurelist p{
+#featurelist p{
    
     font-size: 15px;
 }
 
-.clients img{
+#clients img{
     max-width: 80%;
 }
 
-.customertestimonials h2{
+#customertestimonials h2{
 
     font-size: 25px;
 }
 
-.customertestimonials p{
+#customertestimonials p{
 
     font-size: 20px;
 }
 
-.testimonials li{
+#testimonials li{
     width:39%;
     margin:0 22px;
 }
 
-.products{
+#products{
     overflow-x: auto;
     white-space: nowrap;
 
 }
 
-.products p{
+#products p{
     white-space: normal;
 }
 
-.products li{
+#products li{
     width: 36%;
 }
 
@@ -635,7 +637,6 @@ ul.topnav{
 }    
 
 
-
 ul.topnav.fs {
     display: block;
     position:fixed;
@@ -650,58 +651,58 @@ ul.topnav.fs {
     pointer-events:auto;
     z-index: 3;
   }
-.featurelist li{
+#featurelist li{
     width:90%;
 }
 
-.clients img{
+#clients img{
     max-width: 90%;
 }
 
-.clients li{
+#clients li{
     width: 40%;
     display: inline-block;
     padding-right: 25px;
 
 }
 
-.customertestimonials h2{
+#customertestimonials h2{
 
     font-size: 22px;
 }
 
-.customertestimonials p{
+#customertestimonials p{
 
     font-size: 15px;
     padding:0 15px;
 }
 
-.testimonials li{
+#testimonials li{
     width:84%;
     padding:5px 10px;
     margin-bottom: 20px;
     margin-left: 0;
 }
 
-.testimonials img{
+#testimonials img{
     float: none;
     width:35%;
     margin-top:20px;
 }
 
-.products li{
+#products li{
     width: 70%;
     margin-bottom: 20px;
 
 }
 
-.products{
+#products{
     overflow-x: auto;
     white-space: nowrap;
     padding-left: 0;
 }
 
-.products p{
+#products p{
     white-space: normal;
 }
 
