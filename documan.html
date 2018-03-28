@@ -68,22 +68,28 @@
             {{/features}}
         </script>
 
-        <ul id="story">
-        </ul>  
+        <div id="success">
+            <h1>Success Story</h1>
+            <div id="story">
+            </div> 
+        </div>  
         
         <script id="storyT" type="x-tmpl-mustache">
         {{#story}} 
-        <li>
-                <img src= "{{logo}}"/>
+            <ul class="logos">
+              <li> <img class="clientlogo" src= "{{logo}}"/></li>
+              <li class="plus">+</li>
+              <li><img class="logoimg" src="img/logo.png"></li>
+            </ul>  
                 <h2> {{h2}}</h2>
                 <p> {{about}}</p>
                 <p>{{solution}}</p>
-                <img src= "{{photo}}"/>
-                <h2> {{quote}}</h2>
+                <img class="customerimg" src= "{{photo}}"/>
+                <h2 class="quote"> {{quote}}</h2>
                 <span class="clientname">{{name}}</span>
                 <span class="designation">{{designation}}</span>
 
-        </li>
+        
         {{/story}}
         </script>
 
@@ -107,7 +113,17 @@
 
         </div>
 
-
+        <div class="requestdemo">
+            <div class="mainlogos">
+                <h2>Request Demo</h2>
+             </div>   
+                <ul>
+                    <li><input type="text" id="fname" placeholder="Name"></li>
+                    <li><input type="tel" id="phonenumber" placeholder="Mobile number"></li>
+                    <li><button class="bluebutton">Request Demo</button></li>
+                </ul>
+            
+        </div>
    
 
       

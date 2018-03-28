@@ -1,7 +1,12 @@
 $(function(){
 	var date = new Date();
 
-	$("#header").load("include/header.html?v=" + date.getMilliseconds() ); 
+	$("#header").load("include/header.html?v=" + date.getMilliseconds() , function(){
+		 	$('.hamburger, .topnav').on('click', function() { 
+	        $('.topnav, .hamburger').toggleClass('fs');
+	        //$('.hamburger').text() == "☰" ? $('.hamburger').text('✕') : $('.hamburger').text('☰');
+	    });
+	}); 
 	
 	$("#footer").load("include/footer.html?v=" + date.getMilliseconds() ); 
 
@@ -31,10 +36,7 @@ $(function(){
 
 	});
 
- $('.hamburger, .topnav').on('click', function() { 
-        $('.menu-bg, .topnav, .hamburger').toggleClass('fs');
-        //$('.hamburger').text() == "☰" ? $('.hamburger').text('✕') : $('.hamburger').text('☰');
-    });
+
 
 });
 

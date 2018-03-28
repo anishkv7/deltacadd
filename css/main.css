@@ -97,9 +97,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.menu-bg {
-  display: none;
-}
+
 
 .hamburger{
   color: #ccc;
@@ -116,7 +114,7 @@ textarea {
   text-align:center;
   border-radius: 100%;
   right:60px;
-  top:25px;
+  top:20px;
   z-index: 2;
 
 }
@@ -136,33 +134,15 @@ textarea {
 
 
 .hamburger.fs:before{
-  background: none;
+  background: #666;
   box-shadow: none;
   content: "X";
   font-family: 'Raleway', sans-serif;
   color: #ccc;
+  height: 52px;
+  padding: 0 10px;
 }
-.menu-bg {
-  z-index: 1;
-  position: fixed;
-  width: 50px;
-  height: 50px;
-  font-size: 30px;
-  text-align:center;
-  border-radius: 100%;
-  right:10px;
-  top:10px;
-  background-color: #55acee;
-  pointer-events: none;
-  transition: .3s; 
-  transform: translate3d(1%,16%,0);
-  transform-origin: center center;
-}
-.menu-bg.fs {
-    transform:translate3d(-50%,-50%,0);  
-    width:500vw; 
-    height:500vw;
-}
+
 
 #header{
     margin-bottom:30px;
@@ -206,6 +186,7 @@ ul.topnav li a{
     color:white;
     padding:12px 25px;
     text-transform: uppercase;
+    border:none;
 }
 
 .slider { 
@@ -381,26 +362,52 @@ ul.topnav li a{
 
 }
 
-#story{
+#success{
 
         background-color: rgba(144,151,165,0.06);
         padding-bottom: 30px;
+        padding-top:5px;
 }
 
-#story h2{
+
+.logos{
+    text-align: center;
+}
+
+#success h2{
     color: #444444; 
     font-family: "Open Sans";   
     font-size: 30px;   
     font-weight: 300;   
     line-height: 30px;  
     text-align: center;
-    margin: 50px 50px; 
+    margin: 40px 50px; 
     padding:0 50px;
-    padding-top: 130px;
+    padding-top: 50px;
         
 }
 
-#story p{
+#success h1{
+    text-align: center;
+    color: #444444; 
+    font-family: "Open Sans";   
+    font-size: 40px;    
+    font-weight: 300;
+    margin:40px 30px;
+}
+
+#success .quote{
+    color: #444444; 
+    font-family: "Open Sans";   
+    font-size: 26px;    
+    font-weight: 300;   
+    line-height: 30px;  
+    text-align: center;
+    margin-top:0;
+    padding-top:0;
+}
+
+#success p{
     color: #333333; font-family: "Open Sans";   
     font-size: 18px;    
     line-height: 28px;
@@ -408,12 +415,37 @@ ul.topnav li a{
     margin-bottom: 20px;
 }
 
-#story img{
+#success .customerimg{
     align:center;
     border-radius: 50%;
-    float: left;
-    margin:10px 450px;
+    
+    margin:30px 620px;
 }
+
+#success .clientlogo{
+    width:80%;
+}
+
+#success .logoimg{
+    width:100%;
+    padding-top:-100px;
+}
+
+#success .plus{
+    height:100px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 88px;
+}
+
+#success li{
+    display: inline-block;
+
+    
+}
+
+
 
 .mainlogos h2{
     padding-top:20px;
@@ -559,11 +591,35 @@ ul.topnav li a{
     margin-left:-25px;
 }
 
+.requestdemo{
+       
+        border: 1px solid #CCCCCC;  
+        border-radius: 6px; 
+        background-color: #F9F9FA;
+        margin:30px 50px;
+        margin-right:;
+}
+
+.requestdemo li{
+    display: inline-block;
+    margin-left:80px;
+    padding:10px 10px;
+}
+
+input{
+    border: none;
+  background: transparent;
+  border-bottom: 2px solid #CCCCCC;
+  outline: none;
+  width:300px;
+
+}
+
 #footer{
         background: linear-gradient(179.52deg, rgba(77,81,90,0.8) 0%, rgba(125,129,152,0.8) 100%);
         padding: 15px 45px;
         display: inline-block;
-        width:93%;
+        width:94%;
 
 }
 
@@ -650,7 +706,9 @@ font-size: 15px;
     padding:10px 10px;
     font-size: 12px;
 }
-#featurelist li{
+
+
+#featurelist li {
     width:42%;
 
 }
@@ -673,6 +731,39 @@ font-size: 15px;
 #featurelist p{
    
     font-size: 15px;
+}
+ul.#features{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#features li{
+    width:40%;
+}
+
+#success li{
+    width:30%;
+
+}
+
+#success h2 #success.quote{
+    font-size: 25px;
+    margin-top:20px;
+}
+
+#success p{
+    font-size:18px;
+    padding:10px 20px;
+}
+
+#success .customerimg{
+    
+    margin:30px 300px;
+}
+
+#logos li{
+    margin:20px 20px;
+    padding-left: 0;
 }
 
 #clients img{
@@ -744,12 +835,15 @@ font-size: 15px;
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-.hamburger, .menu-bg{
+.hamburger{
     display:block;
   }
 
 
-
+.logoimg{
+    width:40%;
+    margin-left:25px;
+}
 ul.topnav{
     display: none;
 }    
@@ -757,18 +851,31 @@ ul.topnav{
 
 ul.topnav.fs {
     display: block;
-    position:fixed;
-    letter-spacing:10px;
-    width: 90%;
-    text-align: center;
-    transition: .4s;
-    margin-top:100px;
-    transform: translateY(-200%);
-    pointer-events:none;
-    transform: translateY(0);
+    width: 100%;
     pointer-events:auto;
-    z-index: 3;
+    background-color: #666666;
   }
+
+ul.topnav.fs li{
+  
+    float:none;
+    padding:15px 40px;
+    border-bottom: 1px dotted #777;
+  }
+
+ul.topnav.fs li a{
+  
+    color:white;
+    font-size:16px;
+    font-weight: 400; 
+  }
+
+.bluebutton{
+    padding:10px 10px;
+    border-radius: 15px; 
+    font-size: 12px;
+}
+
 #featurelist li{
     width:90%;
 }
