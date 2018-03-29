@@ -1,0 +1,53 @@
+{
+	"banner": "img/documan-banner.jpg",
+	"title": "To Solve your document management woes",
+	"desc" : "DocuMan™ is a document management software built for consultants by consultants. By combining years of insight obtained from architects, engineers, design professionals and other consultants with technological innovation, this product addresses a key pain point effectively.",
+	"features": [{
+		"image": "img/business.png",
+		"h2": "ENSURE BUSINESS CONTINUITY",
+		"text": "Protect your business by ensuring that your document flow is not disrupted byemployee absence, lack of information, improper delegation. DocuMan™ ensuresthat your drawings and documents are neatly organized and easily retrievable."
+	}, {
+		"image": "img/productivity.png",
+		"h2": "INCREASE PRODUCTIVITY",
+		"text": "Now manage your projects and team members centrally. Assignresponsibilities and rights to users based on levels. Define project scope, classify projects, and retrieve project document status in real-time and more. Save precious time, otherwise lost in tracking documents and increase your organizational productivity."
+	}, {
+		"image": "img/security.png",
+		"h2": "BETTER SECURITY",
+		"text": "An advanced check-in and check-out process means that each document is tracked. Access control based on employee levels also means that sensitive information is accessible to only those authorized to view it."
+	}, {
+		"image": "img/errors.png",
+		"h2": "ELIMINATE ERRORS",
+		"text": "A very common error in consulting firms is the duplication of data and its existence in different systems as different versions. With DocuMan™, each document is labelled via a rule-based numbering system. Multiple versions and revisions can be maintained while document read/write rights can be assigned to different team members."
+	}, {
+		"image": "img/organize.png",
+		"h2": "ORGANIZE DATA",
+		"text": "Manage a project with complete view of documents within a project and their status. Bring project transmittal processes within the document system and improve your overall process. Document history, timesheets and quality of issued documents can be easily tracked."
+	}, {
+		"image": "img/process.png",
+		"h2": "ENABLE PROCESS",
+		"text": "Leverage our experience with over 4000 architectural and consulting users to bringin greater process and process compliance into your organization. DocuMan™ hasseveral information best-practices built into it, which have been developed afteryears of user experience and insight."
+	}],
+	"story" : {
+		"logo": "img/stapati.png",
+		"h2": "DeltaCADD took Stapati to the new way of managing thier workflow and saw 80% increase in their productivity",
+		"about": "Stapati is a leading architechts and design firm based out of Bengaluru.  The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. ",
+		"solution": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+		"photo": "img/customer/sandeep.jpg",
+		"quote": "Results were something we coudln’t have ever imagined. We could track the progress of each project and each employee with so much of ease. We were in control again.",
+		"name" : "Sandeep Trivedi",
+		"designation":"CEO"
+	},
+	"logos": [{
+		"img": "img/logos/logo1.png",
+		"link": ""
+	}, {
+		"img": "img/logos/logo2.png",
+		"link": ""
+	}, {
+		"img": "img/logos/logo3.png",
+		"link": ""
+	}
+	]
+	
+
+}

@@ -47,12 +47,12 @@
         </div>  
 
         <script id="descT" type="x-tmpl-mustache">
-                <p> {{desc}}</p>
+                <h2> {{desc}}</h2>
             
         </script>
 
 
-        <ul id="features" class="blocks">
+        <ul id="features" >
         
         </ul>
         <script id="featuresT" type="x-tmpl-mustache">
@@ -76,7 +76,7 @@
         
         <script id="storyT" type="x-tmpl-mustache">
         {{#story}} 
-            <ul class="storylogos">
+            <ul class="logos">
               <li> <img class="clientlogo" src= "{{logo}}"/></li>
               <li class="plus">+</li>
               <li><img class="logoimg" src="img/logo.png"></li>
@@ -84,8 +84,8 @@
                 <h2> {{h2}}</h2>
                 <p> {{about}}</p>
                 <p>{{solution}}</p>
-                <center><img class="customerimg" src= "{{photo}}" align="center"/></center>
-                <h2 class="quote"> "{{quote}}"</h2>
+                <img class="customerimg" src= "{{photo}}"/>
+                <h2 class="quote"> {{quote}}</h2>
                 <span class="clientname">{{name}}</span>
                 <span class="designation">{{designation}}</span>
 

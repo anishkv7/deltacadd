@@ -25,13 +25,17 @@ $(function(){
 			$('#' + tmplId.substring(0, tmplId.length-1) ).html(Mustache.to_html(tmpl, data));
 		})
 
-		simpleslider.getSlider({
-	      container: document.getElementById('carousel'),
-	      init: -100,
-	      show: 0,
-	      end: 100,
-	      unit: '%'
-	    });
+		if(id == 'index') {
+			simpleslider.getSlider({
+		      container: document.getElementById('carousel'),
+		      init: -100,
+		      show: 0,
+		      end: 100,
+		      unit: '%'
+		    });
+		}
+
+		
 
 
 	});
