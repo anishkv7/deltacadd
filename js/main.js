@@ -29,7 +29,11 @@ $(function(){
 			var tmpl = $(val).html();
 			console.log(Mustache.to_html(tmpl, data))
 			$('#' + tmplId.substring(0, tmplId.length-1) ).html(Mustache.to_html(tmpl, data));
+			if($('[type=x-tmpl-mustache]').length -1 == i) {
+				$('.loader').fadeOut();
+			}
 		})
+		
 
 		if(id == 'index') {
 			simpleslider.getSlider({
