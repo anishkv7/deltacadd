@@ -24,3 +24,23 @@
 	</ul>
 
 </div>
+
+<div class="modal">
+	<form class="modal-content animate" id="contactform" onsubmit="return postData()">
+		 <span class="close" title="Close Modal">&times;</span>
+
+		<h2>Request Demo </h2>
+		<div class="container">
+			<ul>
+				<li><input class="textinput" type="text" id="fname" placeholder="Name" required></li>
+				<li><input class="textinput" type="tel" pattern="\d{10}" id="phonenumber" placeholder="Mobile number (10 digits)" required title="Enter a 10 digit phone number"></li>
+				<li id="sendinginfo">Sending information...</li>
+	            <li><button id="submitbutton" class="bluebutton">Request Demo</button></li>
+            </ul> 
+
+
+		</div>
+	</form>
+
+
+</div>

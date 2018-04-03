@@ -1,0 +1,23 @@
+{
+	"banner": "img/contact_banner.png",
+	
+	"enquiry": [{
+		"image": "img/salesteam.png",
+		"h2": "SALES ENQUIRY",
+		"text": "KitchenPlan, an AutoCAD plugin helps to design a modular kitchen and give a photo realistic rendering and estimate.",
+		"buttontext":"ENQUIRE"
+	}, {
+		"image": "img/demo.png",
+		"h2": "REQUEST DEMO",
+		"text": "KitchenPlan, an AutoCAD plugin helps to design a modular kitchen and give a photo realistic rendering and estimate.",
+		"buttontext":"REQUEST DEMO"
+	}, {
+		"image": "img/support.png",
+		"h2": "SUPPORT",
+		"text": "KitchenPlan, an AutoCAD plugin helps to design a modular kitchen and give a photo realistic rendering and estimate.",	
+		"buttontext":"CONTACT"
+		}]
+
+	
+
+}

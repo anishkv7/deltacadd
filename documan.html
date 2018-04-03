@@ -101,8 +101,9 @@
             <script id="logosT" type="x-tmpl-mustache">
             {{#logos}}  
                  <li>
-                    <img src= "{{img}}"/>
-                    <a href= "{{link}}"></a>
+                    <a href= "{{link}}">
+                         <img src= "{{img}}"/>
+                    </a>
                     
                   </li>
 
@@ -114,14 +115,34 @@
         </div>
 
         <div class="requestdemo">
+
+       
+
             <div class="mainlogos">
+
+
                 <h2>Request Demo</h2>
-             </div>   
+             </div>
+             <form id="contactform" onsubmit="return postData()">  
+                <div id="message"></div>
                 <ul>
-                    <li><input type="text" id="fname" placeholder="Name"></li>
-                    <li><input type="tel" id="phonenumber" placeholder="Mobile number"></li>
-                    <li><button class="bluebutton">Request Demo</button></li>
+                    <li><input class="textinput" type="text" id="fname" placeholder="Name" required></li>
+                    <li><input class="textinput" type="tel" pattern="\d{10}" id="phonenumber" placeholder="Mobile number (10 digits)" required title="Enter a 10 digit phone number"></li>
+
+                    <li><button id="submitbutton" class="bluebutton">Request Demo</button></li>
+                    <li id="sendinginfo">Sending information...</li>
                 </ul>
+
+              </form>  
+            
+               <!--  <ul>
+                    <li><input class="textinput" type="text" id="fname" placeholder="Name" required></li>
+                    <li><input class="textinput" type="tel" pattern="\d{10}" id="phonenumber" placeholder="Mobile number (10 digits)" required title="Enter a 10 digit phone number"></li>
+                    <li id="sendinginfo">Sending information...</li>
+                    <li><button id="submitbutton" class="bluebutton">Request Demo</button></li>
+                </ul> -->
+
+        
             
         </div>
    
