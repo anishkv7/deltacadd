@@ -304,6 +304,20 @@ li > a:only-child:after {
       margin-bottom: 60px;
 }
 
+#about{
+    padding-top:20px;
+}
+
+#about p{
+    font-family: "Open Sans";   
+    font-size: 15px;
+    color:#333;
+    line-height: 28px;
+    font-weight: normal;
+    padding:5px 30px;
+
+}
+
 #banner img{
     width:100%;
 }
@@ -558,6 +572,16 @@ li > a:only-child:after {
     font-family: "Open Sans";  
     color: #333333; 
     font-size: 15px;
+    line-height: 25px;
+
+}
+
+#testimonials h2{
+    color: #444444; 
+    font-family: "Open Sans";   
+    font-size: 30px;    
+    font-weight: 300;
+    text-align: center;
 
 }
 
@@ -586,6 +610,19 @@ li > a:only-child:after {
     font-style: italic;
     text-align: right;
 }
+
+#aboutus #testimonials {
+
+    margin-bottom: 60px;
+
+}
+
+#aboutus #testimonials li{
+        min-height: 180px;
+        vertical-align: top;
+}
+
+
 
 .mainproducts{
     
@@ -994,6 +1031,11 @@ font-size: 15px;
 #testimonials li{
     width:39%;
     margin:0 22px;
+}
+
+#aboutus #testimonials li{
+        min-height: 200px;
+        
 }
 
 #products{
