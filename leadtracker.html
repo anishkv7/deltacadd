@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body id="documan">
+        <div class="loader" style="position: fixed; left: 0px; top: 0px; width: 100%; height: 100%;z-index: 9999;background-color: #fff"></div>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -47,12 +48,12 @@
         </div>  
 
         <script id="descT" type="x-tmpl-mustache">
-                <h2> {{desc}}</h2>
+                <p> {{desc}}</p>
             
         </script>
 
 
-        <ul id="features" >
+        <ul id="features" class="blocks">
         
         </ul>
         <script id="featuresT" type="x-tmpl-mustache">
@@ -76,7 +77,7 @@
         
         <script id="storyT" type="x-tmpl-mustache">
         {{#story}} 
-            <ul class="logos">
+            <ul class="storylogos">
               <li> <img class="clientlogo" src= "{{logo}}"/></li>
               <li class="plus">+</li>
               <li><img class="logoimg" src="img/logo.png"></li>
@@ -84,8 +85,8 @@
                 <h2> {{h2}}</h2>
                 <p> {{about}}</p>
                 <p>{{solution}}</p>
-                <img class="customerimg" src= "{{photo}}"/>
-                <h2 class="quote"> {{quote}}</h2>
+                <center><img class="customerimg" src= "{{photo}}" align="center"/></center>
+                <h2 class="quote"> "{{quote}}"</h2>
                 <span class="clientname">{{name}}</span>
                 <span class="designation">{{designation}}</span>
 
@@ -101,8 +102,9 @@
             <script id="logosT" type="x-tmpl-mustache">
             {{#logos}}  
                  <li>
-                    <img src= "{{img}}"/>
-                    <a href= "{{link}}"></a>
+                    <a href= "{{link}}">
+                         <img src= "{{img}}"/>
+                    </a>
                     
                   </li>
 
@@ -114,14 +116,34 @@
         </div>
 
         <div class="requestdemo">
+
+       
+
             <div class="mainlogos">
+
+
                 <h2>Request Demo</h2>
-             </div>   
+             </div>
+             <form id="contactform" onsubmit="return postData()">  
+                <div id="message"></div>
                 <ul>
-                    <li><input type="text" id="fname" placeholder="Name"></li>
-                    <li><input type="tel" id="phonenumber" placeholder="Mobile number"></li>
-                    <li><button class="bluebutton">Request Demo</button></li>
+                    <li><input class="textinput" type="text" id="fname" placeholder="Name" required></li>
+                    <li><input class="textinput" type="tel" pattern="\d{10}" id="phonenumber" placeholder="Mobile number (10 digits)" required title="Enter a 10 digit phone number"></li>
+
+                    <li><button id="submitbutton" class="bluebutton">Request Demo</button></li>
+                    <li id="sendinginfo">Sending information...</li>
                 </ul>
+
+              </form>  
+            
+               <!--  <ul>
+                    <li><input class="textinput" type="text" id="fname" placeholder="Name" required></li>
+                    <li><input class="textinput" type="tel" pattern="\d{10}" id="phonenumber" placeholder="Mobile number (10 digits)" required title="Enter a 10 digit phone number"></li>
+                    <li id="sendinginfo">Sending information...</li>
+                    <li><button id="submitbutton" class="bluebutton">Request Demo</button></li>
+                </ul> -->
+
+        
             
         </div>
    

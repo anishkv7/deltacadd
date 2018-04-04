@@ -17,9 +17,12 @@ $(function(){
 	$("#footer").load("include/footer.html?v=" + date.getMilliseconds()); 
 
 	var id = $("body").attr("id");
-	console.log("../data/" + id + ".json");
 	
-	$.getJSON("../data/" + id + ".json", function(data) {
+
+
+
+	
+	$.getJSON("../data/" + id + ".json?rnd="+Math.random(), function(data) {
 
 /*	$.getJSON("../data/index.json", function(data) { */
 
@@ -29,6 +32,7 @@ $(function(){
 			var tmpl = $(val).html();
 			console.log(Mustache.to_html(tmpl, data))
 			$('#' + tmplId.substring(0, tmplId.length-1) ).html(Mustache.to_html(tmpl, data));
+			console.log(i)
 			if($('[type=x-tmpl-mustache]').length -1 == i) {
 				$('.loader').fadeOut();
 			}

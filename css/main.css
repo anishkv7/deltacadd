@@ -173,7 +173,7 @@ ul.topnav li {
 
 ul.topnav li a{
     text-decoration: none;
-    color: #222222; 
+    color: #777; 
     font-family: "Open Sans";   
     font-size: 18px;    
     font-weight: 600;   
@@ -194,6 +194,10 @@ ul.topnav li a{
 nav{
 
     float: right;
+}
+
+nav a:hover{
+    color:#2CAAB7!important;
 }
 
 nav ul ul {
@@ -241,6 +245,11 @@ li > a:after {
 }
 li > a:only-child:after { 
     display: none;
+ }
+
+ #index .index,#documan .products,#kitchenplan .products,#leadtracker .products,#aboutus .aboutus,#contact .contact{
+
+        color: #2CAAB7;
  }
 
 .contactbutton{
@@ -667,7 +676,7 @@ li > a:only-child:after {
   background: transparent;
   border-bottom: 2px solid #CCCCCC;
   outline: none;
-  width:150%;
+  width:90%;
   color: #333;   
   font-family: "Open Sans";   
   font-size: 18px;    
@@ -743,6 +752,7 @@ li > a:only-child:after {
     display: inline-block;
     width:46%;
     vertical-align: middle;
+    padding:80px 0;
     
 
     }
@@ -751,8 +761,7 @@ li > a:only-child:after {
 
 .locationaddress{
         background-color: #445371;
-    
-        width:700px;
+        
         padding-left: 50px;
         padding-top:0;
         margin-top:0;
@@ -763,15 +772,20 @@ li > a:only-child:after {
         color: #FFFFFF; 
         font-family: "Open Sans";   
         font-size: 24px;    
-        line-height: 35px;
+        line-height: 40px;
+        padding-left:50px;
+}
+
+.locationaddress img{
+    padding-left: 50px;
 }
 
 .locationaddress span{
 
     color: #FFFFFF; 
     font-family: "Open Sans";  
+    font-size: 18px;
 
- font-size: 18px;
 }
 
 
@@ -1024,7 +1038,20 @@ font-size: 15px;
 }
 
 .textinput{
-    width:150px;
+    width:90%;
+}
+
+.location li{
+    padding:70px 0;
+}
+.locationaddress p{
+    font-size:18px;
+    padding-left:20px;
+
+}
+
+.locationaddress img{
+    padding-left:20px;
 }
 
 #footer{
@@ -1045,6 +1072,8 @@ font-size: 15px;
 .contact ul{
     margin-left: 0;
 }
+
+
 
 
 }
@@ -1283,20 +1312,28 @@ ul.topnav.fs li a{
 .textinput{
 
     font-size:15px;
-    width:230px;
+    width:90%;
 }
 
 
 
 .location li{
     width:84%;
-    padding:20px 5px;
+    padding:2px 5px;
 }
 
 
 .locationaddress p{
     font-size:14px;
     padding-left:20px;
+}
+
+.locationaddress span{
+    font-size:14px;
+}
+
+.locationaddress img{
+    padding-left: 20px;
 }
 
 .address{
