@@ -13,6 +13,12 @@ $(function(){
 
 		    });
 	}); 
+
+	$('body').on('click', "#sales_button,#request_button,#support_button", function(){
+		$(this).toggleClass('active');
+		openModal();
+
+	})
 	
 	$("#footer").load("include/footer.html?v=" + date.getMilliseconds()); 
 
@@ -28,11 +34,8 @@ $(function(){
 
 		$('[type=x-tmpl-mustache]').each(function(i,val){
 			var tmplId = $(val).attr('id');
-			console.log(tmplId);
 			var tmpl = $(val).html();
-			console.log(Mustache.to_html(tmpl, data))
 			$('#' + tmplId.substring(0, tmplId.length-1) ).html(Mustache.to_html(tmpl, data));
-			console.log(i)
 			if($('[type=x-tmpl-mustache]').length -1 == i) {
 				$('.loader').fadeOut();
 			}
@@ -54,18 +57,42 @@ $(function(){
 
 	});
 
-	$(document).on('click', '.close, .requestmodal', function() {
+	$(document).on('click', '.close', function() {
 		$('.modal').toggle();
 	})
-
+	$(document).on('click', '.requestmodal', function() {
+		openModal();
+	})
 
 
 });
 
+function openModal() {
+	var tmpl = $('#modalC').html();
+	$('.modal .container' ).html(Mustache.to_html(tmpl, ''));
+	$('.modal').toggle();
+}
+
 function postData() {
+	var prp = "";
 	$('#sendinginfo').toggle();
+	if($('body').attr('id') == 'contact') {
+		prp = "&Purpose="
+		switch ($('.contactbutton.active').attr('id')){
+			case "sales_button":
+				prp += "Sales";
+				break;
+			case "request_button":
+				prp += "Request Demo";
+				break;	
+			case "support_button":
+				prp += "Support";
+				break;	
+		}
+		$('.contactbutton.active').toggleClass("active");
+	}
 	var url = " https://script.google.com/macros/s/AKfycbxMs_yf2IW5DGsPZ232HJixWjJCVO-vcEo2YSzgXdqyHqCde00/exec";
-	url += "?Name=" + $("#fname").val() + "&Phone=" + $("#phonenumber").val()
+	url += "?Name=" + $("#fname").val() + "&Phone=" + $("#phonenumber").val() + (prp != "" ? prp : "")
     $.get(url, function(data, status){
    //     alert("Data: " + data + "\nStatus: " + status);
    		if($("#contactform").hasClass("modal-content")){
